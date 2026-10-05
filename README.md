@@ -53,13 +53,15 @@ Testing experience also includes public and private beta participation involving
 - Call of Duty: Black Ops 4 — Beta (2018)
 - Mortal Shell II — Beta (2026)
 
-## Independently Documented Bugs
+## Additional Documented Bugs
 
-Additional defects discovered outside formal beta programs include documented issues in:
+### [Elden Ring – Collision Detection / Hitbox Failure](additional-bugs/elden-ring-hitbox-collision.md)
 
-- Elden Ring
-- Grand Theft Auto V
+Collision and hitbox behavior discovered during gameplay in Elden Ring v1.0. Original gameplay footage remains available as supporting evidence, and the issue was verified as resolved in Patch v1.01.
 
+### [Grand Theft Auto V – Environment Occlusion / Bullet Penetration](additional-bugs/gta-v-bullet-penetration.md)
+
+Environment collision issue involving NPC projectiles penetrating solid map geometry and damaging the player while occluded. The issue has been observed across multiple PlayStation generations and remains unresolved.
 ## Repository Structure
 
 Each detailed bug report contains:
