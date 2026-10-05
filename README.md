@@ -9,7 +9,6 @@ This repository contains verified bug reports and testing documentation conducte
 The portfolio demonstrates practical manual QA methodology through bug reproduction, cross-device verification, regression testing, evidence collection, and fix verification.
 
 ## Verified Bug Reports
-## Verified Bug Reports
 
 ### 1. [Aloha Browser – Appearance Tab Crash](bug-reports/aloha-browser-appearance-crash.md)
 
