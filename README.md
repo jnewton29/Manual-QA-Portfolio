@@ -9,12 +9,27 @@ This repository contains verified bug reports and testing documentation conducte
 The portfolio demonstrates practical manual QA methodology through bug reproduction, cross-device verification, regression testing, evidence collection, and fix verification.
 
 ## Verified Bug Reports
+## Verified Bug Reports
 
-1. Aloha Browser – Appearance Tab Null-Pointer Crash
-2. Device Monitor – Restore Purchase Text Overlay Glitch
-3. iPad mini 7 – Ambient Brightness System Threshold Regression
-4. iPad 10th Gen – Brightness Regression Return
-5. Battery Life App – Missing Camera Permission Null Pointer Exception
+### 1. [Aloha Browser – Appearance Tab Crash](bug-reports/aloha-browser-appearance-crash.md)
+
+Major application crash discovered on iPadOS. The issue was reproduced, reported to the developer, and later verified as resolved in an updated application version.
+
+### 2. [Device Monitor – Restore Purchase Overlay](bug-reports/device-monitor-restore-purchase-overlay.md)
+
+UI layout defect causing text to overlap the Restore Purchases control. The issue was later resolved in an application update.
+
+### 3. [iPad mini 7 – Brightness Regression](bug-reports/ipad-mini-7-brightness-regression.md)
+
+System regression involving an incorrect high-brightness threshold. The issue was investigated and later verified as resolved in a subsequent iPadOS release.
+
+### 4. [iPad 10th Gen – Brightness Regression Return](bug-reports/ipad-10th-gen-brightness-regression-return.md)
+
+Regression testing identified the return of previously observed brightness behavior in a later iPadOS release, followed by fix verification in subsequent testing.
+
+### 5. [Battery Life – Camera Permission Crash](bug-reports/battery-life-camera-permission-crash.md)
+
+Cross-device testing reproduced an application crash involving the feedback portal's camera functionality across multiple iOS and iPadOS devices. The affected Take Photo functionality was later removed as a workaround following an App Store compliance report.
 
 ## Additional Testing Experience
 
